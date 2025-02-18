@@ -60,7 +60,7 @@ function ProfileCard({
           </div>
           <div className="skills text-center pt-2">
             {skills.map((skill, index) => (
-              <div key={index} className="badge bg-custom-blue text-black mx-1">
+              <div key={index} className="badge bg-custom-blue text-black mx-1 px-3 py-1 rounded-full transition-transform duration-200 ease-in-out hover:scale-110 hover:bg-blue-400">
                 {skill}
               </div>
             ))}
